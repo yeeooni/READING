@@ -1,0 +1,30 @@
+- Log4j (환경 세팅, 사용법, 기초)
+
+	- 라이브러리 추가 (log4j.1.2.17.jar)
+	- log4j.properties 파일 생성
+	- LOGLEVEL
+		- DEBUG, INFO, WARN, ERROR, FATAL
+		
+	- web.xml log4j을 로딩할 Listener, log4j.properties 위치 설정
+	- 현재 프로젝트의 properties 위치는 classpath
+	- 최상위 로거 log4j.rootLogger
+	- INFO LEVEL 이상의 로그는 다 CONSOLE로 출력.
+	- ConsoleAppender
+	- PatternLayout을 지정, level, class message console로 출력.
+	- DailyRollingFileAppender 클래스를 이용하여 파일 출력.
+			- 매일매일 다른 로그를 사용하게 만듦.
+	
+	- RollingFileAppender
+		- 파일 사이즈를 제한하여 로그파일을 생성할 수 있음.
+	
+	- ConversionPattern 종류
+		- %p : logType (DEBUG, INFO..)
+		- %m : logMessage
+		- %n : 줄 바꿈
+		- %d : Date & time
+		- %C : 클래스 이름 (소문자 주의)
+		- %M : 호출 메소드 이름 
+		- %F : 프로그램 파일명
+		- %L : 호출 코드 라인 
+		- %l : 로깅 발생한 caller 정보
+		- %r : 어플리케이션 시작 이후 부터 로깅이 발생한 시점의 시간

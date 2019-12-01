@@ -1,0 +1,22 @@
+1. config -> mavenPoject 
+
+2. web.xml
+	- springDispatcherServlet 
+	- contextConfigLocation 
+
+3. pom.xml (DI 주입) 
+	- Spring-webmvc : springMvc 프로젝트를 위해 추가된 dependency
+	- Spring-tx : Spring Transaction 사용을 위해 추가된 dependency
+	- Spring-orm : JPA를 위해 dependency
+	- javax.servlet.jsp.jstl-api : front-end jstl dependency
+	- standard : taglib dependency
+	- javax.servlet-api : servlet dependency
+	- javax.servlet.jsp-api : JSP dependency
+	- com.fasterxml.jackson.core : json 변환 dependency
+	- mysql
+	- junit
+
+4. applicationContext.xml 
+	- beans check
+	- mvc check
+	
