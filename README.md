@@ -1,6 +1,8 @@
-# :clipboard: ​Board Management
+# :clipboard: ​Board Management (READING)
 
-_2019년09월09월 02:01,구상을 끝으로 작성_  
+_2019년09월09월 02:01,구상을 끝으로 작성_ 
+
+_부제 읽으며 생각_  
 
 ####  :computer:
 
@@ -10,6 +12,12 @@ _2019년09월09월 02:01,구상을 끝으로 작성_
  - git
  - exerd
  - eclipse(Jee 2019.06), eclipse(LUNA)
+
+:family:
+
+_김의연_ **(front-end)**
+
+
 
 #### :page_with_curl:
 
@@ -37,8 +45,6 @@ Controller -> **ModelAndView** -> ViewResolver -> View -> Jsp
 - DispatcherServlet  : 클라이언트의 요청을 받는다. 컨트롤러에게 클라이언트의 요청을 전달하고, 컨트롤러가 리턴한 결과값을 View에게 전달하여 알맞은 응답을 생성하도록 한다.
 - HandlerMapping  :  클라이언트의 요청 URL을 어떤 컨트롤러가 처리할지 결정
 - HandlerAdapter  : DispatcherServlet의 처리 요청을 변환하여 컨트롤러에게 전달하고 컨트롤러의 응답 결과를 DispatcherServlet이 요구하는 형식으로 변환, 웹 브라우저 캐시 등 설정 담당
-
-
 
 #### :point_left:
 
