@@ -13,7 +13,9 @@
  
   <mvc:annotation-driven />
 
-  <context:component-scan base-package="org.project.web.reading.controller" />
+  <context:component-scan base-package="org.project.web.reading.*">
+  	<context:include-filter type="annotation" expression="org.project.web.reading.controller"/>
+  </context:component-scan>
 
   <bean id="handlerMapping"
   class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">

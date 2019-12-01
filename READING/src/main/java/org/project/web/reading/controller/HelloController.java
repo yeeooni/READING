@@ -1,18 +1,18 @@
 package org.project.web.reading.controller;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloController {
+	protected Logger log = Logger.getLogger(HelloController.class);
 
-	@RequestMapping(value="/hello", method=RequestMethod.GET)
-	public String index(Model model){
-		System.out.println("hello !!!");
-		model.addAttribute("name", "KIMEUIYEON");
-		return "index";
+	@RequestMapping("/hello.do")
+	public ModelAndView hello(){
+		log.info("hello!");
+		String msg = "Hello, World!";
+		return new ModelAndView("hello", "msg", msg);
 	}
-	
 }
