@@ -6,7 +6,7 @@
 <title>test</title>
 </head>
 <body>
-	<strong>안녕하세요. ${name}입니다.</strong>
 	<p> hello world! </p>
+	<strong>안녕하세요. ${name}입니다.</strong><br/> <p>반가워요.</p>
 </body>
 </html>

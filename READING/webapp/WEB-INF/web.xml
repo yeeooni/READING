@@ -21,7 +21,7 @@
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>/WEB-INF/config/dispatcher-servlet.xml</param-value>
+      <param-value>/WEB-INF/config/*-servlet.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
@@ -29,13 +29,13 @@
     <servlet-name>dispatcher</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
-  <listener>
+  <!-- <listener>
     <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
   </listener>
   <context-param>
     <param-name>log4jConfigLocation</param-name>
     <param-value>classpath:log4j.properties</param-value>
-  </context-param>
+  </context-param> -->
   <filter>
     <filter-name>encodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
