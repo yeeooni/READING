@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   
   <properties>
-  	<springframework.version>5.0.6.RELEASE</springframework.version>
+  	<springframework.version>5.2.3.RELEASE</springframework.version>
   	<jstl.version>1.2.1</jstl.version>
   	<tld.version>1.1.2</tld.version>
   	<servlets.version>3.0.1</servlets.version>
