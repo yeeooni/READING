@@ -1,12 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" src="<c:url value="../resources/template/js/jquery-3.4.1.min.js"/>"></script>
+<script type="text/javascript" src="<c:url value="../resources/template/js/bootstrap.min.js"/>"></script>
+<link href="../resources/template/css/bootstrap.min.css" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>test</title>
+<title>index</title>
 </head>
-<body>
-	<p> hello world! </p>
-	<strong>안녕하세요. ${name}입니다.</strong><br/> <p>반가워요.</p>
+<body class="container">
+	<div class="jumbotron">
+		<p> hello world! </p>
+		<strong>안녕하세요. ${name}입니다.</strong><br/> <p>반가워요.</p>
+	</div>
 </body>
 </html>
