@@ -16,6 +16,8 @@
   <context:component-scan base-package="org.project.web.reading.*">
   	<context:include-filter type="annotation" expression="org.project.web.reading.controller"/>
   </context:component-scan>
+  
+  <!-- DB 아직 사용하지 않기 때문에 주석 처리 context:property-placeholder location="classpath:database.properties"/ -->
 
   <bean id="handlerMapping"
   class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">

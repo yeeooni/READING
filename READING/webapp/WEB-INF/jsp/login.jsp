@@ -3,12 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="<c:url value="../resources/template/js/jquery-3.4.1.min.js"/>"></script>
-<script type="text/javascript" src="<c:url value="../resources/template/js/bootstrap.min.js"/>"></script>
-<link href="../resources/template/css/bootstrap.min.css" rel="stylesheet">
-<link href="../resources/template/common/css/common.css" rel="stylesheet">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width" initial-scale="1">
+<jsp:include page="../jsp/include/header.jsp"></jsp:include>
 <title>login</title>
 </head>
 <body>
@@ -18,7 +13,7 @@
 			<p><input type="text" name="login" value="" placeholder="UserName or Email"></p>
 			<p><input type="password" name="password" placeholder="Password"></p>
 			<p class="rememberMe"><label><input type="checkbox" name="rememberMe" id="rememberMe">Remember Me on this computer</label></p>
-			<p class="submit"><input type="submit" name="commit" value=""/></p>
+			<p class="submit"><input type="submit" name="commit" value="login"/></p>
 		</form>
 	</div>
 
