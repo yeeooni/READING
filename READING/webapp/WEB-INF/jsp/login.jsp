@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="login">
-		<h1>Reading Login Form</h1>
+		<h1>로그인</h1>
 		<form method="post" action="#">
 			<p><input type="text" name="login" value="" placeholder="UserName or Email"></p>
 			<p><input type="password" name="password" placeholder="Password"></p>

@@ -97,5 +97,7 @@ Controller -> **ModelAndView** -> ViewResolver -> View -> Jsp
 
    - transactionManager 설정
    
+ - 로그인페이지, 상단바 구현 중
+ - 회원가입페이지 구상 중 
      
 
