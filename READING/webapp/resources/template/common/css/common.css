@@ -1,7 +1,7 @@
 body{
 	font : 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
 	color : #404040;
-	background : #0ca3d2;
+	background : #ffffff;
 }
 
 .login{
@@ -9,7 +9,7 @@ body{
 	margin : 30px auto;
 	padding : 20px 20px 20px;
 	width : 310px;
-	background : white;
+	background : #363636;
 	border-radius : 3px;
 	-webkit-box-shadow : 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
 	box-shadow : 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -35,7 +35,7 @@ body{
 	color : #555;
 	text-align : center;
 	text-shadow : 0 1px white;
-	background : #f3f3f3;
+	background : #808080;
 	border-bottom : 1px solid #cfcfcf;
 	border-radius : 3px 3px 0 0;
 	background-image : -webkit-linear-gradient(top, whiteffd, #eef2f5);	
@@ -137,7 +137,7 @@ input[type=submit]{
 	font-weight : bold;
 	color : #527881;
 	text-shadow : 0 1px #e3f1f1;
-	background : #cde5ef;
+	background : #041A2F;
 	border : 1px solid;
 	border-color : #b4ccce #b3c0c8 #9eb9c2;
 	border-radius : 16px;

@@ -8,10 +8,10 @@
 </head>
 <body>
 	<div class="login">
-		<h1>로그인</h1>
+		<h1 style="">Reading Login</h1>
 		<form method="post" action="#">
 			<p><input type="text" name="login" value="" placeholder="UserName or Email"></p>
-			<p><input type="password" name="password" placeholder="Password"></p>
+			<p><input type="password" name="password" value="" placeholder="Password"></p>
 			<p class="rememberMe"><label><input type="checkbox" name="rememberMe" id="rememberMe">Remember Me on this computer</label></p>
 			<p class="submit"><input type="submit" name="commit" value="login"/></p>
 		</form>
